@@ -18,8 +18,8 @@ export default function Projects() {
         "A responsive personal portfolio showcasing my projects, skills, and experience — built with React.js and Tailwind CSS, optimized for SEO and performance.",
       tools: ["React.js", "Tailwind CSS", "EmailJS", "Vercel"],
       image: "images/portfolio.png",
-      github: "https://github.com/chinubha/portfolio",
-      live: "https://chinubhati.vercel.app",
+      github: "https://github.com/chinubhati/FUTURE_FS_01.git",
+      live: "https://chinubhati-portfolio.vercel.app",
     },
   ];
 
