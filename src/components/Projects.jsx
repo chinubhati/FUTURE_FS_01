@@ -19,7 +19,7 @@ export default function Projects() {
       tools: ["React.js", "Tailwind CSS", "EmailJS", "Vercel"],
       image: "images/portfolio.png",
       github: "https://github.com/chinubhati/FUTURE_FS_01.git",
-      live: "https://chinubhati-portfolio.vercel.app",
+      live: "https://chinubhati-portfolio.vercel.app/",
     },
   ];
 
