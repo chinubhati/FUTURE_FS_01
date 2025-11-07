@@ -42,15 +42,27 @@ export default function About() {
             Outside of coding, I enjoy exploring tech communities, contributing to open-source, and continuously learning about new frameworks and development trends.
           </p>
           <br />
-          <div className="flex justify-center">
+          <div className="flex justify-center gap-4">
+
             <a
-              href="chinuBhati_resume.pdf"
-              download="Chinubhati_resume.pdf"
+              href={`${process.env.PUBLIC_URL}/chinubhati_resume.pdf`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block px-8 py-3 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 hover:shadow-blue-500/40 transition duration-300"
+            >
+              👁️ View Resume
+            </a>
+
+
+            <a
+              href={`${process.env.PUBLIC_URL}/chinubhati_resume.pdf`}
+              download="chinubhati_resume.pdf"
+              className="inline-block px-8 py-3 bg-green-600 text-white font-medium rounded-lg shadow-md hover:bg-green-700 hover:shadow-green-500/40 transition duration-300"
             >
               📄 Download Resume
             </a>
           </div>
+
         </div>
       </div>
     </section>
